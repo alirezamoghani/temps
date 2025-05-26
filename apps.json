@@ -1,0 +1,29 @@
+{
+    "android": [
+        {
+            "name": "Hiddify",
+            "description": "برنامه پیشنهادی",
+            "suggested": true,
+            "downloadLink": "https://github.com/hiddify/HiddifyNG/releases/latest",
+            "addLink": "hiddify://import/{url}#{name}"
+        }
+    ],
+    "windows": [
+        {
+            "name": "Hiddify",
+            "description": "برنامه پیشنهادی",
+            "suggested": true,
+            "downloadLink": "https://github.com/hiddify/hiddify-app/releases/latest",
+            "addLink": "hiddify://import/{url}#{name}"
+        },
+    ],
+    "ios": [
+        {
+            "name": "Hiddify",
+            "description": "برنامه پیشنهادی",
+            "suggested": true,
+            "downloadLink": "https://apps.apple.com/us/app/hiddify-proxy-vpn/id6596777532",
+            "addLink": "hiddify://import/{url}#{name}"
+        }
+    ]
+}
