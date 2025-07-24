@@ -1,32 +1,32 @@
 {
     "android": [
-        {
-            "name": "Happ",
-            "description": "برنامه پیشنهادی",
-            "suggested": true,
-            "downloadLink": "https://github.com/Happ-proxy/happ-android/releases/latest/download/Happ.apk",
-            "addLink": "happ://import/{url}#{name}"
-        },
-        {
+         {
             "name": "Hiddify",
-            "description": "برنامه پیشنهادی",
+            "description": " این برنامه به صورت خودکار برای دسترسی  به سایت‌های ایرانی از وی‌پی‌ان استفاده نمی‌کند",
             "suggested": true,
             "downloadLink": "https://github.com/hiddify/HiddifyNG/releases/latest",
             "addLink": "hiddify://import/{url}#{name}"
         },
         {
+            "name": "Happ",
+            "description": "این برنامه کمترین باگ را دارد",
+            "suggested": false,
+            "downloadLink": "https://github.com/Happ-proxy/happ-android/releases/latest/download/Happ.apk",
+            "addLink": ""
+        },
+        {
             "name": "v2RayTun",
-            "description": "برنامه پیشنهادی",
-            "suggested": true,
+            "description": "این برنامه کمترین باگ را دارد",
+            "suggested": false,
             "downloadLink": "https://play.google.com/store/apps/details?id=com.v2raytun.android&pcampaignid=web_share",
-            "addLink": "v2raytun://import/{subscription_link}"
+            "addLink": ""
         }
         
     ],
     "windows": [
         {
             "name": "Hiddify",
-            "description": "برنامه پیشنهادی",
+            "description": "این برنامه به صورت خودکار برای دسترسی  به سایت‌های ایرانی از وی‌پی‌ان استفاده نمی‌کند",
             "suggested": true,
             "downloadLink": "https://github.com/hiddify/hiddify-app/releases/latest",
             "addLink": "hiddify://import/{url}#{name}"
@@ -41,33 +41,34 @@
         {
             "name": "v2RayTun",
             "description": "برنامه پیشنهادی",
-            "suggested": true,
+            "suggested": false,
             "downloadLink": "https://storage.v2raytun.com/v2RayTun_Setup.exe",
-            "addLink": "v2raytun://import/{subscription_link}"
+            "addLink": ""
         }
 
     ],
     "ios": [
-        {
-            "name": "Happ",
-            "description": "برنامه پیشنهادی",
-            "suggested": true,
-            "downloadLink": "https://apps.apple.com/us/app/happ-proxy-utility/id6504287215",
-            "addLink": "happ://import/{url}#{name}"
-        },
-        {
+             {
             "name": "Hiddify",
-            "description": "برنامه پیشنهادی",
+            "description": "این برنامه به صورت خودکار برای دسترسی  به سایت‌های ایرانی از وی‌پی‌ان استفاده نمی‌کند",
             "suggested": true,
             "downloadLink": "https://apps.apple.com/us/app/hiddify-proxy-vpn/id6596777532",
             "addLink": "hiddify://import/{url}#{name}"
         },
         {
+            "name": "Happ",
+            "description": "برنامه پیشنهادی",
+            "suggested": false,
+            "downloadLink": "https://apps.apple.com/us/app/happ-proxy-utility/id6504287215",
+            "addLink": ""
+        },
+   
+        {
             "name": "v2RayTun",
             "description": "برنامه پیشنهادی",
-            "suggested": true,
+            "suggested": false,
             "downloadLink": "https://apps.apple.com/en/app/v2raytun/id6476628951",
-            "addLink": "v2raytun://import/{subscription_link}"
+            "addLink": ""
         }
     ]
 }
