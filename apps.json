@@ -1,29 +1,74 @@
 {
     "android": [
         {
+            "name": "Happ",
+            "description": "برنامه پیشنهادی",
+            "suggested": true,
+            "downloadLink": "https://github.com/Happ-proxy/happ-android/releases/latest/download/Happ.apk",
+            "addLink": "happ://import/{url}#{name}"
+        },
+        {
             "name": "Hiddify",
             "description": "برنامه پیشنهادی",
             "suggested": true,
-            "downloadLink": "https://github.com/hiddify/hiddify-next/releases/download/v2.5.7/Hiddify-Android-universal.apk",
+            "downloadLink": "https://github.com/hiddify/HiddifyNG/releases/latest",
             "addLink": "hiddify://import/{url}#{name}"
+        },
+        {
+            "name": "v2RayTun",
+            "description": "برنامه پیشنهادی",
+            "suggested": true,
+            "downloadLink": "https://play.google.com/store/apps/details?id=com.v2raytun.android&pcampaignid=web_share",
+            "addLink": "v2raytun://import/{subscription_link}"
         }
+        
     ],
     "windows": [
         {
             "name": "Hiddify",
             "description": "برنامه پیشنهادی",
             "suggested": true,
-            "downloadLink": "https://github.com/hiddify/hiddify-app/releases/latest/download/Hiddify-Windows-Setup-x64.Msix",
+            "downloadLink": "https://github.com/hiddify/hiddify-app/releases/latest",
             "addLink": "hiddify://import/{url}#{name}"
+        },
+        {
+            "name": "v2rayN",
+            "description": "برنامه پیشنهادی",
+            "suggested": true,
+            "downloadLink": "https://github.com/2dust/v2rayN/releases/download/7.12.7/v2rayN-windows-64-desktop.zip",
+            "addLink": ""
+        },
+        {
+            "name": "v2RayTun",
+            "description": "برنامه پیشنهادی",
+            "suggested": true,
+            "downloadLink": "https://storage.v2raytun.com/v2RayTun_Setup.exe",
+            "addLink": "v2raytun://import/{subscription_link}"
         }
+
     ],
     "ios": [
+        {
+            "name": "Happ",
+            "description": "برنامه پیشنهادی",
+            "suggested": true,
+            "downloadLink": "https://apps.apple.com/us/app/happ-proxy-utility/id6504287215",
+            "addLink": "happ://import/{url}#{name}"
+        },
         {
             "name": "Hiddify",
             "description": "برنامه پیشنهادی",
             "suggested": true,
             "downloadLink": "https://apps.apple.com/us/app/hiddify-proxy-vpn/id6596777532",
             "addLink": "hiddify://import/{url}#{name}"
+        },
+        {
+            "name": "v2RayTun",
+            "description": "برنامه پیشنهادی",
+            "suggested": true,
+            "downloadLink": "https://apps.apple.com/en/app/v2raytun/id6476628951",
+            "addLink": "v2raytun://import/{subscription_link}"
         }
     ]
 }
+
